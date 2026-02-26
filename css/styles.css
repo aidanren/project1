@@ -1,3 +1,150 @@
 @charset "UTF-8";
-/* CSS Document: Street Art Tour, Stephen Schaf, 2022*/
+/* Winter Golf Practice Tour, Aidan Renecke, 2026 */
 
+	/* Adobe Fonts */
+		@import url("https://use.typekit.net/mza4zwd.css");
+
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+
+			body {
+				font-family: "source-sans-pro", sans-serif;
+				font-weight: 400;
+				font-style: normal;
+				background-color: #f4f4f9; 
+				color: #333333; 
+				line-height: 1.6;
+				margin: 20px;
+			}
+
+			h1, h2, h3 {
+				font-family: "headline-gothic-atf", sans-serif; 
+				font-weight: 400;
+				font-style: normal;
+				color: #1a2a3a; 
+				margin-bottom: 15px;
+			}
+
+			h3 {
+			    letter-spacing: 1.5px;
+			    word-spacing: 2px; 
+			    font-size: 1.3em;
+			}
+
+			p {
+				margin-bottom: 20px;
+			}
+
+	/* Table Styling */
+
+			th, td{
+				border: 1px solid lightgrey;
+			}
+
+			th {
+    			background-color: #2c3e50;
+    			color:white;
+    			width: 350px;
+			}
+
+			tr{
+				height: 100px;
+			}
+
+			td {
+    			text-align: center;
+    			background-color: #ecf0f1;
+    			color: #333333;
+			}
+
+			.column_descr {
+
+				color: white;
+				background-color: darkcyan;
+				font-size: 18px;
+
+			}
+
+	/* Image Styling Requirement */
+
+			img {
+			    border: 2px solid #2c3e50; 
+			    margin: 10px; 
+			    padding: 5px;
+			    background-color: white; 
+			}
+
+			video {
+			    border: 2px solid #2c3e50; 
+			    margin: 10px; 
+			    padding: 5px;
+			    background-color: white; 
+			}
+
+			iframe {
+			    border: 2px solid #2c3e50; 
+			    margin: 10px; 
+			    padding: 5px;
+			    background-color: white; 
+			}
+
+	/* Navigation Links */
+
+			.location_link {
+				display: flex;
+				align-items: flex-end;
+				margin-bottom: 15px; 
+			}
+
+			.location_link img {
+				display: block;
+				margin-top: 0;
+				margin-bottom: 0;
+				margin-right: 20px; 
+			}
+
+			.location_link div {
+				margin-bottom: 0px; 
+			}
+
+	/* Cohesive Color Palette */
+
+			.color_bar {
+				background-color: #1a2a3a;
+				height: 15px;
+				width: 100%;
+			}
+
+			a {
+				color: #2c3e50; 
+				text-decoration: none; 
+				font-weight: bold;
+			}
+
+			
+			a:hover {
+				color: darkcyan;
+				text-decoration: underline;
+			}
+
+			
+			hr {
+				border: 0; 
+				border-top: 2px solid #2c3e50; 
+				margin-bottom: 20px;
+			}
+
+			.heroheader {
+				display: inline-block; 
+				margin-bottom: 20px; 
+			}
+
+			.heroheader img {
+				border: none; 
+				margin: 0;
+				padding: 0;
+				display: block; 
+			}
